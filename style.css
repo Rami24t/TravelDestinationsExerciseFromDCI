@@ -1,0 +1,87 @@
+/* CSS Stylesheet fro Travel Destination*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  background-color: red;
+}
+body {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.301) 60%,
+      rgba(255, 255, 255, 0.932)
+    ),
+    url(./images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+  padding: 1em;
+}
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: none;
+}
+label {
+  padding: 0.5rem;
+  display: inline-block;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1rem;
+}
+input {
+  padding: 0.5rem;
+  display: inline-block;
+  color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+button {
+  border: 1px solid rgb(161, 0, 0);
+  padding: 0.6rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  align-self: right;
+  cursor: pointer;
+}
+button[type="button"] {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.808);
+}
+button[type="submit"] {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.897);
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgba(245, 245, 245, 0.884);
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+  margin-bottom: 1rem;
+}
