@@ -15,7 +15,7 @@ body {
     ),
     url(./images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left bottom;
 }
 form {
   display: flex;
