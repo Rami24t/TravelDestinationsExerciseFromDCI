@@ -1,5 +1,5 @@
 
-## My Solution in Live Form
+## My Solution - Live Version (Fully Responsive)
 
 https://rami24t.github.io/TravelDestinationsExerciseFromDCI/
 
